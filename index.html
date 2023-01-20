@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CheckOutPageProject💸💰</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <p class="text-center"><strong>Checkout</strong></p>
+      <div class="card bg-light d-flex">
+        <div class="card-body d-flex flex-column">
+          <div class="d-flex flex-column align-items-center">
+            <div class="d-flex flex-row m-2">
+              <img
+                src="./images/item1.jpeg"
+                alt="bagItem"
+                class="rounded float-start"
+                width="120rem"
+                height="150rem"
+              />
+              <div class="d-flex flex-column p-2">
+                <div class="card-text"><strong>Vintage Backbag</strong></div>
+                <div class="card-text text-danger">
+                  $25.98
+                  <span class="text-dark text-decoration-line-through">
+                    <small>$34.99</small>
+                  </span>
+                </div>
+                <div
+                  class="d-flex flex-row card-text border border-secondary justify-content-around align-items-center rounded"
+                  style="margin: 0.1rem"
+                >
+                  <button
+                    class="btn btn-danger btn-sm buttonDecrease"
+                    id="buttonDecrease1"
+                    style="
+                      margin: 0rem 0rem;
+                      width: 1rem;
+                      padding: 0rem 0rem;
+                      text-align: center;
+                      align-items: center;
+                    "
+                  >
+                    -
+                  </button>
+                  <div id="quantity1">1</div>
+                  <button
+                    class="btn btn-success btn-sm buttonIncrease"
+                    id="buttonIncrease1"
+                    style="
+                      margin: 0rem 0rem;
+                      width: 1rem;
+                      padding: 0rem 0rem;
+                      text-align: center;
+                      align-items: center;
+                    "
+                  >
+                    +
+                  </button>
+                </div>
+                <button
+                  class="btn btn-danger btn-sm remove"
+                  style="width: fit-content; padding: 0.2rem"
+                  id="remove1"
+                >
+                  Remove
+                </button>
+                <div class="card-text productTotal">
+                  Product Total: $<span id="productTotal1">25.98</span>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex flex-row m-2">
+              <img
+                src="./images/item2.jpeg"
+                alt="bagItem"
+                class="rounded float-start"
+                width="120rem"
+                height="150rem"
+              />
+              <div class="d-flex flex-column p-2">
+                <div class="card-text"><strong>Levi Shoes</strong></div>
+                <div class="card-text text-danger">
+                  $45.99
+                  <span class="text-dark text-decoration-line-through">
+                    <small>$54.99</small>
+                  </span>
+                </div>
+                <div
+                  class="d-flex flex-row card-text border border-secondary justify-content-around align-items-center rounded"
+                  style="margin: 0.1rem"
+                >
+                  <button
+                    class="btn btn-danger btn-sm buttonDecrease"
+                    id="buttonDecrease2"
+                    style="
+                      margin: 0rem 0rem;
+                      width: 1rem;
+                      padding: 0rem 0rem;
+                      text-align: center;
+                      align-items: center;
+                    "
+                  >
+                    -
+                  </button>
+                  <div id="quantity2">1</div>
+                  <button
+                    class="btn btn-success btn-sm buttonIncrease"
+                    id="buttonIncrease2"
+                    style="
+                      margin: 0rem 0rem;
+                      width: 1rem;
+                      padding: 0rem 0rem;
+                      text-align: center;
+                      align-items: center;
+                    "
+                  >
+                    +
+                  </button>
+                </div>
+                <button
+                  class="btn btn-danger btn-sm remove"
+                  id="remove2"
+                  style="width: fit-content; padding: 0.2rem"
+                >
+                  Remove
+                </button>
+                <div class="card-text">
+                  Product Total: $<span id="productTotal2">45.99</span>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex flex-row m-2">
+              <img
+                src="./images/item3.jpeg"
+                alt="bagItem"
+                class="rounded float-start"
+                width="120rem"
+                height="150rem"
+              />
+              <div class="d-flex flex-column p-2">
+                <div class="card-text"><strong>Antique Clock</strong></div>
+                <div class="card-text text-danger">
+                  $74.99
+                  <span class="text-dark text-decoration-line-through">
+                    $94.99
+                  </span>
+                </div>
+                <div
+                  class="d-flex flex-row card-text border border-secondary justify-content-around align-items-center rounded"
+                  style="margin: 0.1rem"
+                >
+                  <button
+                    class="btn btn-danger btn-sm buttonDecrease"
+                    id="buttonDecrease3"
+                    style="
+                      margin: 0rem 0rem;
+                      width: 1rem;
+                      padding: 0rem 0rem;
+                      text-align: center;
+                      align-items: center;
+                    "
+                  >
+                    -
+                  </button>
+                  <div id="quantity3">1</div>
+                  <button
+                    class="btn btn-success btn-sm buttonIncrease"
+                    id="buttonIncrease3"
+                    style="
+                      margin: 0rem 0rem;
+                      width: 1rem;
+                      padding: 0rem 0rem;
+                      text-align: center;
+                      align-items: center;
+                    "
+                  >
+                    +
+                  </button>
+                </div>
+                <button
+                  class="btn btn-danger btn-sm remove"
+                  id="remove3"
+                  style="width: fit-content; padding: 0.2rem"
+                >
+                  Remove
+                </button>
+                <div class="card-text">
+                  Product Total: $<span id="productTotal3">74.99</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr class="m-1" />
+          <hr class="m-1" />
+          <hr class="m-1" />
+          <div class="d-flex justify-content-between flex-row">
+            <div>Subtotal</div>
+            <div>$<span id="subtotal">146.96</span></div>
+          </div>
+          <hr class="m-1" />
+          <div class="d-flex justify-content-between flex-row">
+            <div>Tax(%18)</div>
+            <div>$<span id="tax">26.45</span></div>
+          </div>
+          <hr class="m-1" />
+          <div class="d-flex justify-content-between flex-row">
+            <div>Shipping</div>
+            <div>$<span id="shipping">15.00</span></div>
+          </div>
+          <hr class="m-1" />
+          <div class="d-flex justify-content-between flex-row">
+            <div>Total</div>
+            <div>$<span id="total">188.91</span></div>
+          </div>
+          <hr class="m-1" />
+        </div>
+      </div>
+    </div>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/app.js"></script>
+  </body>
+</html>

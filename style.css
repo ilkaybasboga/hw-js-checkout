@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    
+    width: 100vw;
+    background-image: url(./images/old-brick-black-color-wall-260nw-1605128917.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card{
+    margin: auto;
+    width: 80vw;
+    background-image: url(./images/hand-painted-watercolor-pastel-sky-background_23-2148902771.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
