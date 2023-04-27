@@ -21,7 +21,9 @@ Checkout Website . (folder)
   
 
 ```
+## Expected Outcome
 
+![Project 003 Snapshot](checkout.gif)
 
 ## Steps to Solution
   
